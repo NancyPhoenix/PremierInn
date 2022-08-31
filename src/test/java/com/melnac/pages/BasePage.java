@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class BasePage {
+public abstract class BasePage {
 
     public BasePage(){
 
@@ -14,8 +14,7 @@ public class BasePage {
 
     }
 
-    @FindBy(id="find-a-booking")
-    public WebElement manageBookingButton;
+
 
 
 }

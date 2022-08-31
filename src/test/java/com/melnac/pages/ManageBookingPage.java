@@ -3,7 +3,10 @@ package com.melnac.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class BookingPage extends BasePage {
+public class ManageBookingPage extends BasePage {
+
+    @FindBy(id="find-a-booking")
+    public WebElement manageBookingButton;
 
     @FindBy(id="booking-reference-input")
    public WebElement bookingReferenceInputBox;
